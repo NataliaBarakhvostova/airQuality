@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "PlayfairDisplayBold";
+  src: local("PlayfairDisplayBold"),
+    url("../fonts/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "PlayfairDisplayMedium";
+  src: local("PlayfairDisplayMedium"),
+    url("../fonts/PlayfairDisplay-Medium.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PlayfairDisplayRegular";
+  src: local("PlayfairDisplayRegular"),
+    url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-weight: 300;
+}

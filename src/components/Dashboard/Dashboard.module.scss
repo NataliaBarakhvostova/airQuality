@@ -1,0 +1,45 @@
+@import "./src/global/vars";
+
+.container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  @include respond-to("medium") {
+    margin: 10rem auto 0;
+    align-items: center;
+  }
+}
+
+.title {
+  color: $white;
+  font-size: 2.5rem;
+  font-family: $bold;
+  margin-bottom: 0;
+  animation: 1s fromTop ease-out;
+
+  @include respond-to("medium") {
+    font-size: 6rem;
+  }
+}
+
+@keyframes fromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.date {
+  color: $white;
+  font-size: 1.4rem;
+  font-family: $bold;
+
+  @include respond-to("medium") {
+    font-size: 2.6rem;
+  }
+}
